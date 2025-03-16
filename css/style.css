@@ -667,6 +667,13 @@ button {
   float: left;
 }
 
+.image_healing {
+  object-fit: cover;
+  height: 300px !important;
+  width: auto;
+  float: left;
+}
+
 .about_text {
   width: 100%;
   float: left;
@@ -1004,6 +1011,7 @@ a:hover {
   width: 100%;
   float: left;
   margin-top: 70px;
+  z-index: 10;
 }
 
 .book_btn a {
